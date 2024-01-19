@@ -17,6 +17,7 @@ const questions = [
         name: "description"
     },
 
+    // need help here
     {
         type: "input",
         message: "...",
@@ -25,7 +26,7 @@ const questions = [
 
     {
         type: "input",
-        message: "...",
+        message: "Please provide installation instructions for your project.",
         name: "installation"
     },
 
@@ -35,28 +36,43 @@ const questions = [
         name: "usage"
     },
 
-    {
-        type: "input",
-        message: "...",
-        name: "license"
-    },
+    //need help here
+    // {
+    //     type: "list",
+    //     message: "...",
+    //     name: "license",
+    //     choices: []
+    // },
 
     {
         type: "input",
-        message: "Add any contributors to your project here.",
+        message: "Please add any contributors to your project.",
         name: "contributors"
     },
 
     {
         type: "input",
-        message: "...",
+        message: "Please enter test instructions for your project.",
         name: "tests"
+    },
+
+
+    {
+        type: "input",
+        message: "What is your GitHub username?",
+        name: "GitHubUsername"
     },
 
     {
         type: "input",
-        message: "...",
-        name: "questions"
+        message: "What is your GitHub URL?",
+        name: "GitHubURL"
+    },
+
+    {
+        type: "input",
+        message: "What is your email addresss?",
+        name: "email"
     },
 
 ];
@@ -65,7 +81,6 @@ const questions = [
 function writeToFile(fileName) {
 inquirer
 .prompt(questions)
- 
 .then((response) => {
     fs.writeFile(fileName, generateMarkdownJS.generateMarkdown(response), (err) =>
     err ? console.error(err) : console.log('Success!')
@@ -74,9 +89,11 @@ inquirer
 
 writeToFile("README.md");
 
-// // TODO: Create a function to initialize app
-// function init() {
-// };
+// TODO: Create a function to initialize app
+function init() {
+};
 
-// // Function call to initialize app
-// init();
+// Function call to initialize app
+init();
+
+//how to write readme in the other folder
