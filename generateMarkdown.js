@@ -39,9 +39,9 @@ ${data.tests}
 
 ## Questions 
 Please see GitHub and contact information below for any additional questions.
-GitHub Username: ${data.GitHubUsername}
-GitHub URL: ${data.GitHubURL}
-Email address: ${data.email}
+GitHub Username: ${data.GitHubUsername} \n
+GitHub URL: ${data.GitHubURL} \n
+Email address: ${data.email} \n
 `;
 }
 
