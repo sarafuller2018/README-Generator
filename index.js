@@ -17,13 +17,6 @@ const questions = [
         name: "description"
     },
 
-    // need help here
-    {
-        type: "input",
-        message: "...",
-        name: "tableOfContents"
-    },
-
     {
         type: "input",
         message: "Please provide installation instructions for your project.",
@@ -36,13 +29,12 @@ const questions = [
         name: "usage"
     },
 
-    //need help here
-    // {
-    //     type: "list",
-    //     message: "...",
-    //     name: "license",
-    //     choices: []
-    // },
+    {
+        type: "list",
+        message: "Please select a license for the project",
+        name: "license",
+        choices: ["MIT","ISC","APACHE","GPL"]
+    },
 
     {
         type: "input",
@@ -56,17 +48,10 @@ const questions = [
         name: "tests"
     },
 
-
     {
         type: "input",
         message: "What is your GitHub username?",
         name: "GitHubUsername"
-    },
-
-    {
-        type: "input",
-        message: "What is your GitHub URL?",
-        name: "GitHubURL"
     },
 
     {
@@ -87,13 +72,12 @@ inquirer
 )});
 };
 
-writeToFile("README.md");
+writeToFile("GeneratedREADME.md");
 
-// TODO: Create a function to initialize app
-function init() {
-};
+// // TODO: Create a function to initialize app
+// function init() {
+    
+// };
 
-// Function call to initialize app
-init();
-
-//how to write readme in the other folder
+// // Function call to initialize app
+// init();

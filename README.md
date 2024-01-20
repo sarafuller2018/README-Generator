@@ -1,31 +1,26 @@
-# qqq
+# README Generator
 
 ## Description
-www
 
-## Table of Contents
-eee
+This is an application designed to allow developers to quickly generate a README.md file for their projects.
 
 ## Installation
-rrr
 
-## Usage 
-ttt
+npm i
 
-## License 
-undefined
+## Usage
 
-## Contributors
-yyy
+After the user answers a series of questions in their terminal, the markdown file will be created with all of their input.
 
-## Tests 
-uuu
+## Credits
 
-## Questions 
-Please see GitHub and contact information below for any additional questions.
-GitHub Username: iii 
+Received help with pieces of this code from: 
+Sangeetha Kaliaperumal
 
-GitHub URL: ooo 
+## License
 
-Email address: ppp 
+Please refer to the LICENSE in the repo.
 
+## Screenshot of Website
+
+![Alt text](./Assets/images/Screenshot%202024-01-20%20111217.png)
