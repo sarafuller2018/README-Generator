@@ -15,7 +15,7 @@ After the user answers a series of questions in their terminal, the markdown fil
 ## Credits
 
 Received help with pieces of this code from: 
-Sangeetha Kaliaperumal
+Sangeetha Kaliaperumal (tutor)
 
 ## License
 
@@ -23,4 +23,4 @@ Please refer to the LICENSE in the repo.
 
 ## Screenshot of Website
 
-![Alt text](./Assets/images/Screenshot%202024-01-20%20111217.png)
+![Alt text](./Assets/images/Screenshot%202024-01-20%20112447.png)
