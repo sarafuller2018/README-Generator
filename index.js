@@ -31,7 +31,7 @@ const questions = [
 
     {
         type: "list",
-        message: "Please select a license for the project",
+        message: "Please select a license for your project.",
         name: "license",
         choices: ["MIT","ISC","APACHE","GPL", "none"]
     },
@@ -56,7 +56,7 @@ const questions = [
 
     {
         type: "input",
-        message: "What is your email addresss?",
+        message: "What is your email address?",
         name: "email"
     },
 
